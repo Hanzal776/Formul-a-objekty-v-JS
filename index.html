@@ -15,15 +15,15 @@
     />
   </head>
 
-  <body>
+  <body class="bg-secondary">
     <div class="container">
-      <header class="bg-secondary text-dark text-center py-4 my-4 rounded">
+      <header class="bg-dark text-light text-center py-4 my-4 rounded">
         <h1>Kalkulačka úvěru</h1>
       </header>
       <main>
         <form>
           <div class="mb-3">
-            <label for="loan" class="form-label">Výše úvěru (Kč)</label>
+            <label for="loan" class="form-label text-light">Výše úvěru (Kč)</label>
             <input
               type="number"
               id="loan"
@@ -34,7 +34,7 @@
           </div>
 
           <div class="mb-3">
-            <label for="rate" class="form-label">Roční úroková sazba (%)</label>
+            <label for="rate" class="form-label text-light">Roční úroková sazba (%)</label>
             <input
               type="number"
               id="rate"
@@ -45,7 +45,7 @@
           </div>
 
           <div class="mb-3">
-            <label for="years" class="form-label">Doba splácení (roky)</label>
+            <label for="years" class="form-label text-light">Doba splácení (roky)</label>
             <input
               type="number"
               id="years"
@@ -56,7 +56,7 @@
           </div>
 
           <div class="d-grid gap-2">
-            <button type="button" id="calculate" class="btn btn-info btn-lg">
+            <button type="button" id="calculate" class="btn btn-danger btn-lg">
               Vypočítat
             </button>
           </div>
